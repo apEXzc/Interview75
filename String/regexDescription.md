@@ -13,11 +13,11 @@
 
 示例：
 
-````javascript
+```javascript
 let regex = /hello/i; // 忽略大小写
 let str = "Hello World";
 console.log(regex.test(str)); // true
-
+```
 
 ## 中括号（Character Classes）
 
@@ -35,7 +35,7 @@ console.log(regex.test(str)); // true
 ```javascript
 let regex = /[a-z]/; // 匹配任意小写字母
 console.log(regex.test("Hello")); // true
-````
+```
 
 ## 元字符（Metacharacters）
 
